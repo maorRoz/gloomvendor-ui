@@ -1,0 +1,1 @@
+export { GetShopQuantitiesApi } from './GetShopQuantitiesApi';
