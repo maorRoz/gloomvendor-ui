@@ -1,5 +1,5 @@
 import { all, fork } from 'redux-saga/effects';
-import { watchFetchItemsSaga } from './item/sagas/watchFetchItems.saga';
+import { watchFetchItemsSaga } from './item';
 
 const sagas = [watchFetchItemsSaga];
 
