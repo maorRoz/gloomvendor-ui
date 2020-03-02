@@ -1,11 +1,11 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { store } from './store';
-import { Moshe } from './Moshe';
+import { ShopPage } from './components';
 
 export const App = () => (
   <Provider store={store}>
-    <Moshe />
+    <ShopPage />
   </Provider>
 );
 
