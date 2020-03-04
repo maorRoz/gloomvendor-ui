@@ -10,7 +10,7 @@ export const ShopGrid = () => {
   return (
     <Grid>
       {items.map((item, index) => (
-        <ItemCard key={index} name={item.name} image={item.image} />
+        <ItemCard key={index} {...item} />
       ))}
     </Grid>
   );

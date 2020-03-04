@@ -1,16 +1,20 @@
 import React from 'react';
-import { Card } from './ItemCard.styled';
+import {
+  Card,
+  CardImageLayout,
+  CardImageCover,
+  CardBottom
+} from './ItemCard.styled';
+import { Item } from '../../types';
 
-export type ItemCardProps = {
-  name: string;
-  image: string;
-};
+export type ItemCardProps = Item;
 
-export const ItemCard = ({ name, image }: ItemCardProps) => (
+export const ItemCard = ({ name, quantity, image }: ItemCardProps) => (
   <Card>
-    <div>{name}</div>
-    <div>
-      <img src={image} />
-    </div>
+    <CardImageLayout style={{ position: 'relative' }}>
+      <img src={image} alt={name} />
+      <CardImageCover />
+    </CardImageLayout>
+    <CardBottom>X{quantity}</CardBottom>
   </Card>
 );
