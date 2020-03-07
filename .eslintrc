@@ -70,10 +70,12 @@
   },
   "overrides": [
     {
-      "files": ["*.tsx", "**.saga.ts"],
+      "files": ["*.tsx", "**.saga.ts", "**.styled.**"],
       "rules": {
         "@typescript-eslint/explicit-function-return-type": "off"
       }
     }
+
+
   ]
 }

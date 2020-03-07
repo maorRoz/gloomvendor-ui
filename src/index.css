@@ -3,9 +3,8 @@ body {
   padding: 0;
   height: 100vh;
   background-color: white;
-  font-family: 'Open Sans' !important;
+  font-family: 'Pirata One' !important;
   font-weight: 450 !important;
-  font-size: 14px !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

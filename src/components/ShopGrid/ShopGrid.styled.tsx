@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Grid = styled.div`
   display: grid;
-  grid-gap: 1vmin;
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(max(159px, 21%), 1fr));
 `;
